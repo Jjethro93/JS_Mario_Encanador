@@ -34,15 +34,17 @@ O objetivo do site é oferecer um canal simples e divertido para que clientes po
 
 <h2> Demonstração 🎮</h2>
 
-(Adicione aqui o link do site publicado, se tiver: GitHub Pages, Netlify, Vercel, etc.)
+
+https://jjethro93.github.io/JS_Mario_Encanador/
 
 <h2> Desenvolvido por 🧑‍💻</h2>
 <p>
 Jethro Sufra
+  <br>
 Projeto criado com dedicação como parte do aprendizado no curso de programação.</p>
 
 
-Sinta-se à vontade para explorar, estudar e se inspirar!
+
 
 
 <h2>  </h2>
