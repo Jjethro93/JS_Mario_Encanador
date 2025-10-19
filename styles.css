@@ -24,7 +24,7 @@ header {
     align-items: center;
 }
 
-a:hover{
+a:hover {
     color: rgb(218, 10, 10);
     font-size: 18px;
     transition: 0.5s color ease-in-out;
@@ -35,17 +35,18 @@ a:hover{
     height: 30px;
 }
 
-.logo-image:hover{
-    transform:scaleX(-1);
+.logo-image:hover {
+    transform: scaleX(-1);
     transition: 0.7s ease-in-out;
-   
+
 }
 
 section {
-    margin-top: 150px;
+     margin-top: 70px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .image-container-left {
@@ -60,7 +61,7 @@ section {
 .image-container-right {
     width: 300px;
     transition: 0.5s ease-in-out;
-    
+
 }
 
 
@@ -88,7 +89,6 @@ p {
 }
 
 
-
 .caixa-video {
     position: fixed;
     top: 0;
@@ -97,8 +97,8 @@ p {
 
 }
 
-video{
-    min-width:100%;
+video {
+    min-width: 100%;
     min-height: 100%;
     position: fixed;
     top: 0;
@@ -109,33 +109,33 @@ video{
     height: 100%;
     position: fixed;
     top: 0;
-    background: linear-gradient(90deg,rgba(110, 14, 27, 0.93) 3%, rgba(40, 38, 189, 0.43) 50%, rgba(33, 84, 41, 0.96) 97%);
+    background: linear-gradient(90deg, rgba(110, 14, 27, 0.93) 3%, rgba(40, 38, 189, 0.43) 50%, rgba(33, 84, 41, 0.96) 97%);
 }
 
 
-.whatsapp-image{
-    width: 40px; 
+.whatsapp-image {
+    width: 40px;
     position: fixed;
-    bottom: 15px;
-    right: 15px;
+    bottom: 30px;
+    right: 30px;
 }
 
 
-.formulario-de-contato{
+.formulario-de-contato {
     background-color: rgba(47, 47, 99, 0.8);
     display: flex;
     flex-direction: column;
     border: none;
     position: fixed;
     top: 16%;
-    left:-300%;
+    left: -300%;
     padding: 20px;
     border-radius: 5px;
     gap: 20px;
     width: 260px;
 }
 
-input{
+input {
     padding-left: 5px;
     border: 1px solid gray;
     height: 40px;
@@ -145,7 +145,7 @@ input{
 }
 
 
-textarea{
+textarea {
     padding: 5px;
     border: 1px solid gray;
     width: 220px;
@@ -155,14 +155,93 @@ textarea{
     font-size: 16px;
 }
 
-.mascara-formulario{
-    visibility:hidden;
+.mascara-formulario {
+    visibility: hidden;
     position: fixed;
     top: 0;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(90deg,rgba(15, 56, 82, 0.79) 3%, rgba(19, 133, 91, 0.79) 53%, rgba(26, 75, 89, 0.79) 96%);
-    
+    background: linear-gradient(90deg, rgba(15, 56, 82, 0.79) 3%, rgba(19, 133, 91, 0.79) 53%, rgba(26, 75, 89, 0.79) 96%);
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    section {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .container-left {
+        height: 50vh;
+
+    }
+
+    .image-container-left {
+        width: 200px;
+        margin: 15px auto;
+        display: block;
+
+    }
+
+    .image-container-right {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+
+    }
+
+    p {
+        margin-top: 6px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 750px) {
+    p {
+        margin-top: 6px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+section {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .container-left {
+        height: 60%;
+
+    }
+
+    .image-container-left {
+        width: 100px;
+        margin: 15px auto;
+        display: block;
+
+    }
+
+    .image-container-right {
+        width: 30vw;
+        transition: 0.5s ease-in-out;
+        display: block;
+        position:relative;
+
+    }
+
+
 }
 
 /* 
