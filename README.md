@@ -34,7 +34,7 @@ O objetivo do site é oferecer um canal simples e divertido para que clientes po
 
 <h2> Demonstração 🎮</h2>
 
-
+<img src="https://github.com/Jjethro93/JS_Mario_Encanador/blob/master/Assets/Super-Plumber_JS.png">
 https://jjethro93.github.io/JS_Mario_Encanador/
 
 <h2> Desenvolvido por 🧑‍💻</h2>
